@@ -42,7 +42,10 @@ body {
 	grid-area: sidebar;
 
 	display: grid;
-	justify-content: center;
+	align-items: start;
+
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(3, 1fr);
 }
 
 .header {
