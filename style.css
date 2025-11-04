@@ -21,6 +21,9 @@ body {
 
 .sidebar {
 	grid-area: sidebar;
+
+	display: grid;
+	justify-content: center;
 }
 
 .header {
