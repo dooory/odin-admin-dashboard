@@ -188,6 +188,13 @@ body {
 	height: 100%;
 }
 
+.project-card {
+	background-color: white;
+	border-left: 0.6rem solid #f0b429;
+	border-radius: 0.8rem;
+	padding: 2rem 1.2rem;
+}
+
 .announcements {
 	grid-area: announcements;
 }
