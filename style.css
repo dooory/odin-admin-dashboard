@@ -194,6 +194,10 @@ body {
 	border-left: 0.6rem solid #f0b429;
 	border-radius: 0.8rem;
 	padding: 2rem 1.2rem;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .announcements {
