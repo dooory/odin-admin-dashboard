@@ -264,3 +264,7 @@ body {
 .trending {
 	grid-area: trending;
 }
+
+.container-item img {
+	max-height: 5ch;
+}
