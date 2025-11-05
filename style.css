@@ -112,10 +112,11 @@ body {
 	background-color: #e2e8f0;
 	border: none;
 	border-radius: 16px;
+	max-width: 500px;
 }
 
 .search-section input[type="image"] {
-	max-height: 1.2rem;
+	max-height: 1.6rem;
 }
 
 .user-controls {
