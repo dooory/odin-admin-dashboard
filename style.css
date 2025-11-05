@@ -40,6 +40,12 @@ body {
 
 .sidebar {
 	padding: 1.2rem;
+	background-color: #1992d4;
+	color: white;
+}
+
+.sidebar img {
+	filter: invert();
 }
 
 .branding {
