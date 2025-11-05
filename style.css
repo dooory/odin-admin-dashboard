@@ -89,6 +89,27 @@ body {
 	grid-area: header;
 }
 
+.header-section {
+	display: grid;
+	align-items: center;
+}
+
+.search-section {
+	grid-column: 4fr 1fr;
+
+	grid-template-areas: "searchbar user-controls";
+}
+
+.searchbar {
+	grid-area: searchbar;
+}
+
+.user-controls {
+	grid-area: user-controls;
+}
+
+.greeting-section {}
+
 .main-content {
 	grid-area: main-content;
 }
