@@ -39,13 +39,6 @@ body {
 }
 
 .sidebar {
-	grid-area: sidebar;
-
-	display: grid;
-	align-items: start;
-
-	grid-template-columns: 1fr;
-	grid-template-rows: repeat(3, 1fr);
 	padding: 1.2rem;
 }
 
@@ -58,6 +51,19 @@ body {
 
 .branding img {
 	max-height: 3em;
+}
+
+.sidebar-links {
+	display: grid;
+	padding-top: 3.1rem;
+}
+
+.sidebar-links .sidebar-link {
+	min-height: 5ch;
+}
+
+.header {
+	grid-area: header;
 }
 
 .main-content {
