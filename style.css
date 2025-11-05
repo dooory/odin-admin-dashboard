@@ -148,11 +148,9 @@ body {
 
 .projects-controls {
 	flex: 1;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 2rem;
-	min-height: 5ch;
-	align-self: flex-end;
+	display: flex;
+	justify-content: flex-end;
+	gap: 1.2em;
 }
 
 .projects-controls [type="button"] {
