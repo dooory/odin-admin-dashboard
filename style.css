@@ -117,6 +117,10 @@ body {
 	text-align: center;
 }
 
+.user-controls h3 {
+	white-space: nowrap;
+}
+
 .greeting-section {}
 
 .main-content {
