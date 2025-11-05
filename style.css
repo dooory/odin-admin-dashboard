@@ -164,5 +164,26 @@ body {
 .main-content {
 	grid-area: main-content;
 
+	display: grid;
+	grid-template-areas:
+		"your-projects announcements"
+		"your-projects trending";
+
+	grid-template-rows: repeat(2, 1fr);
+	grid-template-columns: 3fr 1fr;
+
 	background-color: #e2e8f0;
+}
+
+.your-projects {
+	grid-area: your-projects;
+}
+
+.announcements {
+	grid-area: announcements;
+	;
+}
+
+.trending {
+	grid-area: trending;
 }
