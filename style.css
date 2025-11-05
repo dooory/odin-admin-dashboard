@@ -49,18 +49,14 @@ body {
 	padding: 1.2rem;
 }
 
-.header {
-	grid-area: header;
-}
-
-.header-logo {
+.branding {
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
 	gap: 1em;
 }
 
-.header-logo img {
+.branding img {
 	max-height: 3em;
 }
 
