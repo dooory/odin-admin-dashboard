@@ -105,6 +105,9 @@ body {
 
 .searchbar input[type="search"] {
 	flex: 1;
+	background-color: #e2e8f0;
+	border: none;
+	border-radius: 16px;
 }
 
 .search-section input[type="image"] {
