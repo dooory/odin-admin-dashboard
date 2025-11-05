@@ -42,6 +42,8 @@ body {
 	padding: 1.2rem;
 	background-color: #1992d4;
 	color: white;
+
+	grid-area: sidebar;
 }
 
 .sidebar img {
