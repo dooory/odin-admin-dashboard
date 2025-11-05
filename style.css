@@ -90,7 +90,8 @@ body {
 	grid-area: header;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
+	gap: 1.5rem;
 }
 
 .header-section {
