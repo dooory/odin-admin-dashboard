@@ -203,6 +203,14 @@ body {
 .project-controls {
 	align-self: flex-end;
 	padding: 0 2rem 0 0;
+
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1.5rem;
+}
+
+.project-controls input[type="image"] {
+	height: 1.5rem;
 }
 
 .announcements {
