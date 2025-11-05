@@ -68,6 +68,11 @@ body {
 	min-height: 5ch;
 }
 
+.sidebar-link img {
+	max-height: 1em;
+	filter: invert();
+}
+
 .header {
 	grid-area: header;
 }
