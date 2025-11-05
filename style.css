@@ -181,6 +181,13 @@ body {
 	grid-area: your-projects;
 }
 
+.cards-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	height: 100%;
+}
+
 .announcements {
 	grid-area: announcements;
 	;
