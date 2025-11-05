@@ -157,6 +157,7 @@ body {
 	grid-row: 1fr;
 	gap: 2rem;
 	min-height: 4ch;
+	align-self: flex-end;
 }
 
 .projects-controls [type="button"] {
