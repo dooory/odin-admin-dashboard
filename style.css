@@ -102,6 +102,15 @@ body {
 
 .searchbar {
 	grid-area: searchbar;
+	display: flex;
+}
+
+.searchbar input[type="search"] {
+	flex: 1;
+}
+
+.searchbar input[type="image"] {
+	max-height: 1.2rem;
 }
 
 .user-controls {
