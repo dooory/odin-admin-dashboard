@@ -209,6 +209,10 @@ body {
 	gap: 1.5rem;
 }
 
+.card-text h2 {
+	margin-block-end: 0.5rem;
+}
+
 .project-controls input[type="image"] {
 	height: 1.5rem;
 }
