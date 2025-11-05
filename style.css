@@ -170,7 +170,7 @@ body {
 		"your-projects trending";
 
 	grid-template-rows: repeat(2, 1fr);
-	grid-template-columns: 3fr 1fr;
+	grid-template-columns: 2.5fr 1fr;
 
 	gap: 1.5rem;
 
