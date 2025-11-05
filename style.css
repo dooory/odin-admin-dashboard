@@ -136,9 +136,6 @@ body {
 	max-height: 2.5rem;
 }
 
-.greeting-section {}
-
-
 .greeting {
 	display: flex;
 	align-items: center;
