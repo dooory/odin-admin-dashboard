@@ -91,19 +91,15 @@ body {
 }
 
 .header-section {
-	display: grid;
+	display: flex;
 	align-items: center;
-}
-
-.search-section {
-	grid-column: 4fr 1fr;
-
-	grid-template-areas: "searchbar user-controls";
+	justify-content: space-between;
+	gap: 6em;
 }
 
 .searchbar {
-	grid-area: searchbar;
 	display: flex;
+	flex: 1;
 }
 
 .searchbar input[type="search"] {
@@ -115,7 +111,8 @@ body {
 }
 
 .user-controls {
-	grid-area: user-controls;
+	display: flex;
+	justify-content: flex-end;
 }
 
 .greeting-section {}
