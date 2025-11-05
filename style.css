@@ -174,7 +174,7 @@ body {
 
 	background-color: #e2e8f0;
 
-	padding: 2rem 1.2rem;
+	padding: 2rem 1.5rem 3rem;
 }
 
 .your-projects,
@@ -202,8 +202,13 @@ body {
 	gap: 1em;
 }
 
-.project-card {
+.project-card,
+.announcements-container,
+.trending-container {
 	background-color: white;
+}
+
+.project-card {
 	border-left: 0.6rem solid #f0b429;
 	border-radius: 0.8rem;
 	padding: 2rem 1.2rem;
