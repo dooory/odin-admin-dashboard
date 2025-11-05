@@ -145,6 +145,23 @@ body {
 	max-height: 4rem;
 }
 
+.projects-controls {
+	flex: 1;
+	max-width: 400px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-row: 1fr;
+	gap: 2rem;
+	min-height: 4ch;
+}
+
+.projects-controls [type="button"] {
+	border: none;
+	border-radius: 24px;
+	background-color: #1992d4;
+	color: white;
+}
+
 .main-content {
 	grid-area: main-content;
 }
