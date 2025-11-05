@@ -130,6 +130,16 @@ body {
 
 .greeting-section {}
 
+
+.greeting {
+	display: flex;
+	align-items: center;
+}
+
+.greeting img {
+	max-height: 4rem;
+}
+
 .main-content {
 	grid-area: main-content;
 }
