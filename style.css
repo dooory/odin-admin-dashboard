@@ -191,6 +191,7 @@ body {
 .announcements-container,
 .trending-container {
 	flex: 1;
+	border-radius: 0.8rem;
 }
 
 .your-projects {
