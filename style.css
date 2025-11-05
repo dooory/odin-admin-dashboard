@@ -267,6 +267,8 @@ body {
 
 .trending-container {
 	padding: 1.2rem;
+
+	display: grid;
 }
 
 .container-item {
