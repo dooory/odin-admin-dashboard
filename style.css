@@ -265,6 +265,12 @@ body {
 	grid-area: trending;
 }
 
+.container-item {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+}
+
 .container-item img {
 	max-height: 5ch;
 }
