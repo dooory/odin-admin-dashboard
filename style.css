@@ -200,6 +200,11 @@ body {
 	justify-content: space-between;
 }
 
+.project-controls {
+	align-self: flex-end;
+	padding: 0 2rem 0 0;
+}
+
 .announcements {
 	grid-area: announcements;
 }
