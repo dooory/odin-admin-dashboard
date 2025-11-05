@@ -163,4 +163,6 @@ body {
 
 .main-content {
 	grid-area: main-content;
+
+	background-color: #e2e8f0;
 }
