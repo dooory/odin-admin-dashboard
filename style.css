@@ -65,6 +65,8 @@ body {
 }
 
 .sidebar-link {
+	display: flex;
+	gap: 0.9em;
 	min-height: 5ch;
 }
 
