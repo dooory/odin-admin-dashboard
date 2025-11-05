@@ -124,6 +124,10 @@ body {
 	white-space: nowrap;
 }
 
+.user-controls img {
+	height: 2.5rem;
+}
+
 .greeting-section {}
 
 .main-content {
